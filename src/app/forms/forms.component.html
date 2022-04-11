@@ -1,0 +1,13 @@
+<p>Reactive forms with observables Works!</p>
+
+<div class="form-group">
+    <label>Enter Age:</label>
+    <input formControlName="age" type="number" required class="from-control">
+    <br>
+    <span  class="text-danger">This is Required</span>
+    <br>
+    <span  class="text-danger">SHould be 18 or more</span>
+</div>
+
+<!-- *ngIf="formVar.controls.age.error?.required && formVar.controls.age.dirty"
+*ngIf="formVar.controls.age.error?.required && formVar.controls.age.dirty" -->

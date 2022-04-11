@@ -1,0 +1,6 @@
+<!-- s<p>employee-age works!</p> -->
+<h2>EMPLOYEE SALARY = AGE * 15</h2>
+<span *ngIf="employees!=null">Bitches got smoked </span>
+<ul *ngFor="let employee of employees">
+    <li>{{employee.name}} {{employee.title}} is paid {{employee.age*15  | currency}} </li>
+</ul>
